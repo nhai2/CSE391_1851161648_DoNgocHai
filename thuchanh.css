@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.app{
+    width: 80%;
+    margin: 0 auto;
+}
+.header__top{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5797ff;
+    color: white;
+}
+.header__top .nav{
+    display: flex;
+    flex: 3;
+
+}
+.header__top .nav li{
+    list-style-type: none;
+}
+.header__top .nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    border-right : 1px solid white;
+    font-weight: 700;
+}
+.header__top .nav li:last-child a{
+    border: none;
+}
+.header__top .logo{
+    text-align: center;
+    flex:1;
+}
+.header__top .logo h1{
+    letter-spacing: 2px;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.header__top .search{
+    padding: 0 10px;
+    flex:3;
+    display: flex;
+    justify-content: flex-end;
+}
+.header__top .search a{
+    padding: 2px 15px;
+    border: 1px solid rgba(227, 238, 255 ,.4);
+    margin:0 7px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.header__nav{
+    background-color: #438bfa;
+}
+.header__nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav ul li{
+    padding: 15px 10px;
+    list-style: none;
+    flex : 1;
+    text-align: center;
+}
+.header__nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.header__nav ul li:hover{
+    background-color: #0a67f7;
+}
+
+.banner{
+    margin: 40px 0 10px 0;
+    padding: 0 10px;
+}
+.banner__wrapper{
+    width: 100%;
+    position: relative;
+}
+.banner__wrapper img{
+    width: 100%;
+}
+.banner .text{
+    position: absolute;
+    width: 80%;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    color : white;
+    text-align: center;
+}
+.banner .text div{
+    padding: 30px 0;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+}
+.banner .text div h1{
+    font-size: 60px;
+}
+.banner .text div h3{
+    font-size: 35px;
+}
+.move{
+    padding: 10px;
+}
+.move__wrapper{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color: #a4ff5e;
+}
+.move .move__big{
+    flex : 4;
+}
+.move .move__big h3{
+    font-size: 45px;
+    color: white;
+}
+.move .move__desc{
+    flex : 5;
+}
+.move .move__desc p{
+    color: white;
+}
+
+.list-rectange ul{
+    display: flex;
+    padding : 0 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list-rectange ul li{
+    list-style: none;
+    flex : 0 0 32%;
+    height: 300px;
+    margin: 10px 0;
+    background-color: gray;
+}
+.list-rectange ul li div{
+    padding: 40px;
+}
+.list-rectange ul li:nth-child(4){
+    background-color: violet;
+}
+.list-rectange ul li:nth-child(5){
+    background-color:#4287f5;
+}
+.list-rectange ul li:last-child{
+    background-color:transparent;
+}
+.list-rectange ul li:last-child div{
+    padding: 10px 0;
+
+}
+.list-rectange ul li:last-child div div{
+    display: flex;
+    align-items: center;
+}
+.list-rectange ul li:last-child div div span:first-child{
+    padding: 5px 10px;
+    border : 1px solid gray;
+    margin-right: 5px;
+    text-align: center;
+}
+
+
+.tag{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.tag span{
+    border : 1px solid #6FBEFB;
+    display: inline-block;
+    width: 100%;
+    margin: 0 10px;
+    padding : 10px 20px;
+    text-align: center; 
+    font-weight:    bold;
+    color : #6FBEFB;
+    text-transform: uppercase;
+}
+.footer{
+    background-color: #484848;
+    padding : 10px;
+}
+.footer a{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    color: rgba(189,189,189,0.6);
+}
+.footer li{
+    list-style: none;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-around;
+}
+.footer__content h3{
+    color: white;
+    font-size: 700;
+    font-size: 16px;
+    padding : 10px 0;
+}
+.footer__content h3:first-child , .m50{
+    margin : 50px 0 0 0;
+}
+
+
+.footer > p{
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+}
