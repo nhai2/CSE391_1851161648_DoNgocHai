@@ -9,14 +9,14 @@ $(document).ready(function(){
     })
     $('#change').click(function(){
         var selectValue = $('#select').val()
-        if( selectValue === 'green'){
+        if( selectValue === 'blue'){
             $(".right p").css({
-                color: 'green',
+                color: 'blue',
             })
         }
-        if( selectValue === 'red'){
+        if( selectValue === 'yellow'){
             $(".right p").css({
-                color: 'red',
+                color: 'yellow',
             })
         }
     })
